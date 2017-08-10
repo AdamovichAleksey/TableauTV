@@ -1,0 +1,44 @@
+
+<html>
+<head>
+  <script type="text/javascript" charset="utf-8">
+    var sites = [
+      ["https://tableau.schibsted.io/t/sch-by-kufar/views/Kaleidoskop/TrafficNew?:embed=y&:showShareOptions=true&:display_count=no&:showVizHome=no", 30000],
+      ["https://tableau.schibsted.io/t/sch-by-kufar/views/Kaleidoskop/PFRevenue?:embed=y&:showShareOptions=true&:display_count=no&:showVizHome=no", 30000],
+      ["https://docs.google.com/presentation/d/1Ziytr1IvXy-92RmzIEfMcZgOQoihucZhKxcfN3snL-0/embed?start=true&loop=false&delayms=6000", 30000]
+    ];
+  </script>  
+  <style type="text/css" media="screen">
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    iframe {
+      height: 100%;
+      width: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <iframe id="iframe"></iframe>
+  <script type="text/javascript">
+    var iframe = document.getElementById("iframe");
+    var currentIndex = 0;
+
+    showSite();
+
+    function showSite() {
+      iframe.setAttribute("src", sites[currentIndex][0]);
+
+      setTimeout(function() {
+        currentIndex++;
+        if (currentIndex === sites.length) {
+          currentIndex = 0;
+        }
+        showSite();
+      }, sites[currentIndex][1]);
+    }
+  </script>
+</body>
+</html>
