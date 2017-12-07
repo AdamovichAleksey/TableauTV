@@ -3,7 +3,9 @@
 ## Plan:
 
 [Why you need TV Dashboards](#why-you-need-tv-dashboards)
+
 [Main rules of building TV Dashboard](#main-rules-of-building-tv-dashboard)
+
 [Rotating Dashboards in Tableau](#rotating-dashboards-in-tableau)
 
 
