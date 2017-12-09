@@ -48,7 +48,7 @@ It's better to place just 1 or 2 measures per slide and rotate multiple ones at 
 
 ### 2. Logical grouping and consistency
 
-For people passing by it's easier to get sliding information if it has some structure or story.
+For people passing by it's easier to get changing information if it has some structure or story.
 1. Use color coding for groups of metrics. 
 2. Use the same kind of charts for the same type of information.
 
