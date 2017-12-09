@@ -3,6 +3,7 @@
 One day I got a project with the purpose "To create a way for communication of our company bussness metrics to everyone". After some consideration and thinking over all pros and cons we decided to choose our TV sets in the office. Then we had to choose a tool for this: 
 1. Google Slides & Google Sheets (with built-in options for rotating but worse visualisation)
 2. Tableau (nice ETL and Visualization but without rotation option (even good enough workarounds were not found)
+
 We choose the second one and here I tell you about how to create rotating dashboards and how to do it in Tableau.
 
 ## Plan:
