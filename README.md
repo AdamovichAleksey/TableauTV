@@ -71,7 +71,6 @@ So it's really cool if you made something you can meditate.
 
 > also you can add Google Slides in a special format as in the example
 
-3. Create 1 dashboard with 1 “web-page” sheet
+### 3. Create 1 dashboard with 1 “web-page” sheet
 
 > for TV with 1080р use resolution 1728х980
-
