@@ -75,7 +75,7 @@ for TV with 1080р use resolution 1700х960 for a separate sheet or you can expe
 
 [Example B](https://github.com/AdamovichAleksey/KufarTV_sliding/blob/master/index.html) - with 2 frames for eliminating upload time of a page
 ```
-also you can add google slides in a special format
+also you can add Google Slides in a special format as in the example
 ```
 
 3. Create 1 dashboard with 1 “web-page” sheet
