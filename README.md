@@ -13,7 +13,7 @@ We choose the second one and here I tell you about how to create rotating dashbo
 
 [Main rules of building TV Dashboard](#main-rules-of-building-tv-dashboard)
 
-[Rotating Dashboards in Tableau](#rotating-dashboards-in-tableau)
+[How to create Rotating Dashboards in Tableau](#how-to-create-rotating-dashboards-in-tableau)
 
 
 ## Why you need TV Dashboards
@@ -62,7 +62,7 @@ Some researches shows that people stronger believe in pretty charts rather than 
 So it's really cool if you made something you can meditate.
 ```
 
-## Rotating Dashboards in Tableau
+## How to create Rotating Dashboards in Tableau
 
 1. Create separate dashboards that should be rotated (possible in different workbooks)
 ```
