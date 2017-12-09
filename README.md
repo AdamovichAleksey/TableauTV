@@ -38,22 +38,37 @@ Other colleagues really feel proud of the best staff of the month.
 
 1. Simplicity & clarity
 ```
-My practice shows that too few persons would stay and stare on multiple charts on 1 slide.
-It's better to place just 1 or 2 measures per slide and rotate multiple ones on slightly higher speed.
+My practice shows that too few persons would stay and stare at multiple charts on 1 slide.
+It's better to place just 1 or 2 measures per slide and rotate multiple ones at slightly higher speed.
 ```
 
 2. Logical grouping and consistency
 ```
-
+For people passing by it's easier to get sliding information if it has some stucture or story.
+1. Use color coding for groups of metrics. 
+2. Use the same type of graphs.
 ```
 
 3. Nice design
+```
+Some researchs shows that people stronger believe in pretty charts rather than in negligent ones.
+So it's really cool if you made something you can meditate.
+```
 
-## 3. Rotating Dashboards in Tableau
-* Create separate dashboards (possible in different workbooks)
-  - for TV with 1080р use resolution 1700х960 or experiment
-* Create a web-page with a list of dashboards & display timing (you can post it anywhere, e.g. on github pages or your web-site)  
-  - also you can add google slides in a special format
-  - **see an example [here](https://github.com/AdamovichAleksey/KufarTV/blob/master/index.html)**
-* Create 1 dashboard with 1 “web-page” sheet
-  - for TV with 1080р use resolution 1728х980
+## Rotating Dashboards in Tableau
+
+1. Create separate dashboards that should be rotated (possible in different workbooks)
+```
+for TV with 1080р use resolution 1700х960 for a separate sheet or you can experiment
+```
+
+2. Create a web-page with a list of dashboards & display timing (you can post it anywhere, e.g. on github pages or your web-site)
+```
+**[see an example of the page](https://github.com/AdamovichAleksey/KufarTV/blob/master/index.html)**
+also you can add google slides in a special format
+```
+
+3. Create 1 dashboard with 1 “web-page” sheet
+```
+for TV with 1080р use resolution 1728х980
+```
