@@ -1,4 +1,4 @@
-# Rotating dashboards in Tableau
+# Rotating Dashboards in Tableau
 
 One day I got a project with the purpose "To create a way for delivering our company business metrics (business live) to everyone". After some consideration and thinking over all pros and cons we decided to choose our office TV sets. Then we had to choose a tool for this: 
 
