@@ -71,7 +71,8 @@ for TV with 1080р use resolution 1700х960 for a separate sheet or you can expe
 
 2. Create a web-page with a list of dashboards & display timing (you can post it anywhere, e.g. on github pages or your web-site)
 ```
-**[see an example of the page](https://github.com/AdamovichAleksey/KufarTV/blob/master/index.html)**
+[Example 1 - 1 frame for less TV memory usage](https://github.com/AdamovichAleksey/KufarTV/blob/master/index.html)
+[Example 2 - with two frames for eliminating upload time of a page](https://github.com/AdamovichAleksey/KufarTV_sliding/blob/master/index.html)
 also you can add google slides in a special format
 ```
 
