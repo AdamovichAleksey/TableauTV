@@ -65,9 +65,9 @@ So it's really cool if you made something you can meditate.
 
 ### 2. Create a web-page with a list of dashboards & display timing (you can post it anywhere, e.g. on github pages or your web-site)
 
-[Example A](https://github.com/AdamovichAleksey/KufarTV/blob/master/index.html) - with 1 frame for less TV memory usage
+[Example A](./index_1_frame.html) - with 1 frame for less TV memory usage
 
-[Example B](https://github.com/AdamovichAleksey/KufarTV_sliding/blob/master/index.html) - with 2 frames for eliminating upload time of a page
+[Example B](./index_2_frames.html) - with 2 frames for eliminating upload time of a page
 
 > also you can add Google Slides in a special format as in the example
 
