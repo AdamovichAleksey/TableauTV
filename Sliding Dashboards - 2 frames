@@ -1,0 +1,118 @@
+<html>
+<head>
+  <script type="text/javascript" charset="utf-8">
+    var sites = [
+      ["https://tableau.schibsted.io/t/sch-by-kufar/views/Kaleidoskop/Traffic_Public?:embed=y&:showShareOptions=true&:display_count=no&:showVizHome=no", 90000],
+      ["https://tableau.schibsted.io/t/sch-by-kufar/views/Kaleidoskop/DAU_Daily?:embed=y&:showShareOptions=true&:display_count=no&:showVizHome=no", 30000],
+      ["https://tableau.schibsted.io/t/sch-by-kufar/views/Kaleidoskop/DAU_KufarGO?:embed=y&:showShareOptions=true&:display_count=no&:showVizHome=no", 30000],
+      ["https://tableau.schibsted.io/t/schibsted/views/Rocket-Global-KufarTVDashboardMAUDAU/RocketGlobal?:embed=y&:showAppBanner=false&:showShareOptions=true&:display_count=no&:showVizHome=no", 30000],
+      ["https://tableau.schibsted.io/t/sch-by-kufar/views/Kaleidoskop/Demand_Monthly?:embed=y&:showShareOptions=true&:display_count=no&:showVizHome=no", 30000],
+      ["https://tableau.schibsted.io/t/sch-by-kufar/views/Kaleidoskop/DAU_per_Platforms?:embed=y&:showShareOptions=true&:display_count=no&:showVizHome=no", 30000],
+      ["https://tableau.schibsted.io/t/sch-by-kufar/views/Kaleidoskop/Un_Listers?:embed=y&:showShareOptions=true&:display_count=no&:showVizHome=no", 40000],
+      ["https://tableau.schibsted.io/t/sch-by-kufar/views/Kaleidoskop/NAA?:embed=y&:showShareOptions=true&:display_count=no&:showVizHome=no", 40000],
+      ["https://tableau.schibsted.io/t/sch-by-kufar/views/Kaleidoskop/Supply_Monthly?:embed=y&:showShareOptions=true&:display_count=no&:showVizHome=no", 30000],
+      ["https://tableau.schibsted.io/t/sch-by-kufar/views/Kaleidoskop/VAS_Daily?:embed=y&:showShareOptions=true&:display_count=no&:showVizHome=no", 30000],
+      ["https://tableau.schibsted.io/t/sch-by-kufar/views/Kaleidoskop/Class_Rev?:embed=y&:showShareOptions=true&:display_count=no&:showVizHome=no", 30000],
+      ["https://tableau.schibsted.io/t/sch-by-kufar/views/Kaleidoskop/Advert_Rev?:embed=y&:showShareOptions=true&:display_count=no&:showVizHome=no", 30000],
+      ["https://tableau.schibsted.io/t/sch-by-kufar/views/Kaleidoskop/Total_Rev?:embed=y&:showShareOptions=true&:display_count=no&:showVizHome=no", 30000],
+      ["https://tableau.schibsted.io/t/sch-by-kufar/views/Kaleidoskop/Paid_Ads?:embed=y&:showShareOptions=true&:display_count=no&:showVizHome=no", 30000],
+      ["https://tableau.schibsted.io/t/sch-by-kufar/views/Kaleidoskop/Paying_Listers?:embed=y&:showShareOptions=true&:display_count=no&:showVizHome=no", 30000],
+      ["https://docs.google.com/presentation/d/1Ziytr1IvXy-92RmzIEfMcZgOQoihucZhKxcfN3snL-0/embed?start=true&loop=false&delayms=6000", 15000],
+      ["https://docs.google.com/presentation/d/1PiDNcwY0Qz-EPyR-97a6FPInFXKVThN7H6UxX1VJHMU/embed?start=true&loop=false&delayms=6000", 15000],
+      ["https://docs.google.com/presentation/d/1EGeq-tFa7LHATPtzZe4PxWk3uWMpgBNt2oojEQHkN80/embed?start=true&loop=false&delayms=6000", 15000],
+      ["https://docs.google.com/presentation/d/1M8JlQAhpGNhqW8lLYOVt1Mt4VMoT6FKhy9tvIzp0EqA/embed?start=true&loop=false&delayms=6000", 15000],
+      ["https://docs.google.com/presentation/d/1dHD35Fo-pmrkyly674oERrK2X8dF3RbXGpjTVQ9M5HI/embed?start=true&loop=false&delayms=6000", 15000]
+    ];
+  </script>
+  <style type="text/css" media="screen">
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    iframe {
+      height: 100%;
+      width: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <script type="text/javascript">
+    function Carousel(length) {
+      var currentIndex = 0;
+      var last = length - 1;
+
+      this.prev = function() {
+        return currentIndex === 0 ? last : currentIndex - 1;
+      }
+
+      this.current = function() {
+        return currentIndex;
+      }
+
+      this.next = function() {
+        return currentIndex === last ? 0 : currentIndex + 1;
+      }
+
+      this.increment = function() {
+        if (currentIndex === last) {
+          currentIndex = 0;
+        } else {
+          currentIndex += 1;
+        }
+      }
+    }
+
+    function Site(src) {
+      var element;
+      var isCreated = false;
+
+      this.show = function() {
+        if (!isCreated) { this.load(); }
+        element.style.display = "";
+      }
+
+      this.hide = function() {
+        if (!isCreated) { return; }
+        element.parentNode.removeChild(element);
+        element = null;
+        isCreated = false;
+      }
+
+      this.load = function() {
+        var elem = document.createElement("iframe");
+        elem.setAttribute("src", src);
+        elem.style.display = "none";
+        element = document.body.appendChild(elem);
+
+        isCreated = true;
+      }
+    }
+  </script>
+  <script type="text/javascript">
+    var currentIndex = 0, length = sites.length;
+
+    var carousel = new Carousel(length);
+
+    for (var i = 0; i < length; i++) {
+      var src = sites[i][0];
+      sites[i].push(new Site(src));
+    }
+
+    showSite();
+
+    function showSite() {
+      var timeout = sites[carousel.current()][1];
+
+      sites[carousel.prev()][2].hide();
+      sites[carousel.current()][2].show();
+      sites[carousel.next()][2].load();
+
+      setTimeout(function() {
+        carousel.increment();
+        showSite();
+      }, timeout);
+    }
+  </script>
+</body>
+</html>
