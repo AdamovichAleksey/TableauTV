@@ -1,6 +1,6 @@
 # Rotating Dashboards in Tableau
 
-One day I got a project with the purpose "To create a way for delivering our company business metrics (and business life) to everyone". After some consideration and thinking over all pros and cons we decided to choose our office TV sets. Then we had to choose a tool for this: 
+One day I got a project with the following purpose: "To create a way for delivering our company business metrics (and business life) to everyone". After some consideration and thinking over all pros and cons we decided to choose our office TV sets. Then we had to choose a tool for this: 
 
 1. Google Slides & Google Sheets (with built-in options for rotating but worse visualization)
 2. Tableau (nice ETL and Visualization but without rotation option (even good enough workarounds were not found)
