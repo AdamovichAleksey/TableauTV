@@ -8,7 +8,6 @@
 
 [How to create Rotating Dashboards in Tableau](#how-to-create-rotating-dashboards-in-tableau)
 
-____
 
 One day I got a project with the following purpose: "To create a way for delivering our company business metrics (and business life) to everyone". After some consideration and thinking over all pros and cons we decided to choose our office TV sets. Then we had to choose a tool for this: 
 
